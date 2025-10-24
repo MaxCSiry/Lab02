@@ -2,4 +2,4 @@ streamlit
 pandas
 json
 os
-python -m pip install --upgrade pip setuptools wheel
+pip install streamlit pandas
