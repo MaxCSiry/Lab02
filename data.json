@@ -1,0 +1,21 @@
+{
+    "chart_title": "Chart Data",
+    "data_points": [
+        {
+            "label": "Apples",
+            "value": 15
+        },
+        {
+            "label": "Oranges",
+            "value": 30
+        },
+        {
+            "label": "Banadas",
+            "value": 22
+        },
+	{
+	    "label": "Grapefruits", 
+	    "value": 25
+	}
+    ]
+}
