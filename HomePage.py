@@ -11,9 +11,14 @@ st.set_page_config(
     page_icon="🏠",         # An emoji that appears as the icon in the browser tab
 )
 my_app/
-│
-├── Survey.py         
-├── data.csv
+if page == "Home": 
+    st.title("Home Page")
+elif page == "Survey":
+    Survey.main()
+elif page == "Graphs":
+    Graphs.main()
+Survey.py         
+data.csv
 
 # WELCOME PAGE TITLE
 st.title("Welcome to the Data Dashboard! 📊")
