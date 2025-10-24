@@ -10,7 +10,7 @@ st.set_page_config(
     page_title="Homepage",  # The title that appears in the browser tab
     page_icon="🏠",         # An emoji that appears as the icon in the browser tab
 )
-my_app/
+
 if page == "Home": 
     st.title("Home Page")
 elif page == "Survey":
